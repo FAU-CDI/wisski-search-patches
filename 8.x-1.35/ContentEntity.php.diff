@@ -1,0 +1,27 @@
+811c811,812
+<     if ($entity_type->getBaseTable()
+---
+>     // WISSKI: We do not use this feature, so we disable it.
+>     if (FALSE && $entity_type->getBaseTable()
+874c875,876
+<         if (isset($last_ids[$context_key])
+---
+>         // WISSKI: We do not use this feature, so we disable it.
+>         if (FALSE && isset($last_ids[$context_key])
+884a887,888
+>       // WISSKI: We do not use this feature, so we disable it.
+>       /*
+890a895
+>       */
+930a936,937
+>     // WISSKI: We do not use this feature, so we disable it.
+>     /*
+945c952,957
+< 
+---
+>     */
+>     foreach ($entity_ids as $entity_id) {
+>       foreach ($enabled_languages as $langcode => $my_language) {
+>         $item_ids[] = "$entity_id:$my_language";
+>       }
+>     }
