@@ -2,7 +2,7 @@
 
 This folder contains patches for various versions of Drupal's [search_api](https://www.drupal.org/project/search_api) module to work with [WissKI](https://wiss-ki.eu/documentation/search/solr-search).
 
-Each version of `search_api` is found in it's own directory.
+Each version of `search_api` is found in its' own directory.
 
 Fully tested versions are:
 
